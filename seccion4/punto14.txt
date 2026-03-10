@@ -1,0 +1,8 @@
+// Punto 14
+
+User-Agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://almasagencia.com/sitemapindex.xml
+Sitemap: https://almasagencia.com/sitemap.xml
