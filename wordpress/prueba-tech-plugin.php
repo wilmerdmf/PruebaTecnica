@@ -8,13 +8,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-
 require_once plugin_dir_path( __FILE__ ) . 'shortcodes.php';
 require_once plugin_dir_path( __FILE__ ) . 'hooks.php';
 
-
-// Google Tag Manager — <head>
- 
 add_action( 'wp_head', 'prueba_add_gtm_head' );
 
 function prueba_add_gtm_head() {
@@ -30,13 +26,11 @@ function prueba_add_gtm_head() {
     <?php
 }
 
-
-// Google Tag Manager — <body>
 add_action( 'wp_body_open', 'prueba_add_gtm_body' );
 
 function prueba_add_gtm_body() {
     ?>
-    <!-- Google Tag Manager -->
+    <!-- Google Tag Manager (noscript) -->
     <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWVPDRS"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
