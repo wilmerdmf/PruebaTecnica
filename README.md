@@ -1,3 +1,2 @@
 # PruebaTecnica
-
-.
+Wilmer Medina
